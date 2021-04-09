@@ -4,7 +4,7 @@ $str1 = 'My email is';
 
 $str2 = 'prashantchy265@gmail.com';
 
-$name = 'Prashant';
+$name = 'prashant';
 
 //concat
 echo $str1 . $str2;
@@ -41,4 +41,20 @@ echo '<br/>';
 
 //replace
 echo str_replace('P', 's', $name);
+echo "<br/>";
+
+echo UCwords($name);
+echo "<br/>";
+
+echo substr($name,0,3);
+echo "<br/>";
+
+echo substr($name,-5,4);
+echo "<br/>";
+
+echo strcmp("Apple", "apple");
+echo "<br/>";
+
+echo strcasecmp("Apple", "apple");
+echo "<br/>";
 ?>
